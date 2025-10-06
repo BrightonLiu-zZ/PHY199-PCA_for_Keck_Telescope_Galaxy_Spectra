@@ -31,8 +31,8 @@ The final figure bundle is **`plots/plot_collection.pdf`**.
    └─ pyzeutil.py                  # pyze helper (incl. unsharp-mask continuum)
 ```
 
-> **Data note:** The large **flux matrix** is hosted on Google Drive (not in the repo).
-> You can (a) **rebuild** it locally from FITS using `scripts/get_flux_matrix.py`, or (b) **download** the precomputed matrix from Drive and place it under `data/` (see Step 3 below).
+> **Data note:** The large **flux matrix** is hosted on Google Drive (https://drive.google.com/file/d/1jCSwXkWemTDEfeNxhUVjnbUKPvwFDnmx/view?usp=sharing).
+> You can **download** the precomputed matrix from Drive and place it under `data/` (see Step 3 below).
 
 ---
 
@@ -234,15 +234,6 @@ Rscript scripts/plotting.R
 * **Reproducible R deps:**
   Consider `renv::init()` and `renv::snapshot()` to pin ggplot/tidyverse versions.
 
----
-
-## License & citation
-
-* **License:** MIT (or choose another license to match collaborators’ needs).
-* **Citation:** If you use this code/figures, please cite the upcoming RNAAS note (citation to be added here once available).
-
----
-
 ## Contact
 
-Questions or bugs: open a GitHub Issue or email me. Happy to help others reuse the PCA/line-ratio workflow.
+Questions or bugs: open a GitHub Issue or email me (brl055@ucsd.edu). Happy to help others reuse the PCA/line-ratio workflow.
