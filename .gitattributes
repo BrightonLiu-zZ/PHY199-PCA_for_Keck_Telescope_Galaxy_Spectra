@@ -3,7 +3,7 @@
 # Count Rmd as R
 *.Rmd linguist-language=R
 *.rmd linguist-language=R
-
-# (Optional) ensure they’re counted in the graph
 *.Rmd linguist-detectable=true
 *.rmd linguist-detectable=true
+
+*.ipynb linguist-language=Python
